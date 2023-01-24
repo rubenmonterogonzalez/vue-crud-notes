@@ -10,7 +10,7 @@ const openMenu = () => {
 </script>
 
 <template>
-  <header class="shadow-md h-16 p-4">
+  <header class="shadow-md h-16 px-4 py-2 bg-blue-200">
     <nav class="flex flex-wrap items-center justify-between">
       <h1 class="text-2xl font-bold">Crud Notes</h1>
       <button
@@ -42,16 +42,16 @@ const openMenu = () => {
         id="navbar-multi-level"
       >
         <ul
-          class="flex flex-col p-3 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
+          class="flex flex-col p-3 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0"
         >
           <RouterLink
             to="/"
-            class="mx-2 my-auto hover:bg-slate-100 md:hover:bg-white"
+            class="mx-2 my-auto text-base"
             >Home</RouterLink
           >
           <RouterLink
             to="/stats"
-            class="mx-2 my-auto hover:bg-slate-100 md:hover:bg-white"
+            class="mx-2 my-auto text-base"
             >Stats</RouterLink
           >
         </ul>
